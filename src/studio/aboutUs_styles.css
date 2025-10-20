@@ -1,0 +1,85 @@
+.about-us-block{
+    margin-top: 100px;
+}
+
+.about-us-content{
+    display: flex;
+    width: 100%;
+}
+
+.our-studio{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    line-height: 1.6;
+}
+
+.our-studio svg{
+    transition: 0.2s;
+}
+
+.our-studio button{
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.our-studio button:hover{
+    border: 1px solid #696969;
+    color: #696969;
+}
+
+.our-studio button:hover svg{
+    fill: #696969;
+}
+
+
+.text-about-studio{
+    max-width: 55vw;
+    margin-right: 10vw;
+    margin-top: 15px;
+    word-break: break-all;
+}
+
+.ours-curs{
+    width: 100%;
+}
+
+.ours-curs button{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 15px 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ours-curs div{
+    margin-top: 30px;
+    background-image: url('../../img/4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 300px;
+}
+
+@media only screen and (max-width: 665px){
+    .about-us-content{
+        display: block;
+    }
+    .text-about-studio{
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .our-studio button{
+        margin-bottom: 85px;
+        margin-left: auto;
+    }
+}

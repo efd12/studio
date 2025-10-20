@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+h1{
+    color: white;
+}
+
+.specialty_title{
+    margin-bottom: -2.2vw;
+}
+
+.specialty_title h1{
+    font-weight: 800;
+    font-size: 8vw;
+    font-size: 9vw;
+}
+
+.specialty_title span {
+    font-family: "Dancing Script", cursive;
+}
+
+.specialty_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello-text{
+    margin-top: -45px;
+    margin-bottom: 15px;
+}
+
+.specialty_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.specialty_description{
+    flex: 0 0 32%;
+    word-break: break-all;
+    line-height: 1.6;
+}
+
+.specialty_description svg{
+    transition: 0.2s;
+}
+
+.specialty_description button{
+    margin-top: 25px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.specialty_description button:hover {
+    border: 1px solid #696969;
+    color: #696969;
+}
+
+.specialty_description button:hover svg {
+    fill: #696969;
+}
+
+.arrow {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1150px){
+    .specialty_description{
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width: 864px){
+    .hello-text{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    }
+    .specialty_content{
+    display: block;
+    }
+    .specialty_description{
+        margin-top: 30px;
+    }
+    .specialty_description{
+        font-size: 18px;
+    }
+}
+
